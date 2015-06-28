@@ -33,7 +33,7 @@ public class GameControl : MonoBehaviour {
 	{
 		if (GameOverFrag) {
 			text_end.gameObject.SetActive (GameOverFrag);
-			if (Input.GetMouseButton(0)) {
+			if (Input.GetMouseButtonDown(0)) {
 				GameOverFrag = false;
 				Application.LoadLevel ("main"); //再ロード
 			}

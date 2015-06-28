@@ -35,6 +35,6 @@ public class EnemyMove : MonoBehaviour {
 		point.y += 0;
 		point.z += 1.0f;
 		point.z += Time.deltaTime;
-		objData.transform.localPosition = point;
+		shot.transform.localPosition = point;
 	}
 }

@@ -5,7 +5,7 @@ public class playerMove : MonoBehaviour {
 	[SerializeField] GameObject Player;
 	const int max_X = 4;
 	const int min_X = -4;
-	const int mouse_position_center = 85;
+	int mouse_position_center = Screen.width/2;
 
 	//移動範囲の制限をする.
 	void Update () {
